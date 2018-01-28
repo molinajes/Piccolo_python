@@ -2477,6 +2477,15 @@ html.w-mod-js *[data-ix="hide-compare-section"] {
   .tp-mobile{
     width: 120px;
   }
+  .dyson_mobile{
+    width: 80px;
+  }
+  .samsung_mobile{
+    width: 90px;
+  }
+  .sharp_mobile{
+    width: 100px;
+  }
   .hue-mobile{
     width: 50px;
   }
