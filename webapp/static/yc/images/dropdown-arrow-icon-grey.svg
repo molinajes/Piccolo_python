@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>dropdown-arrow-icon-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Webflow-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Phone" transform="translate(-824.000000, -40.000000)" fill="#BABDC3">
+            <g id="Header-Phone">
+                <g id="Nav-Panel" transform="translate(135.000000, 25.000000)">
+                    <g id="Nav" transform="translate(624.000000, 10.000000)">
+                        <g id="Arrow" transform="translate(65.000000, 5.000000)">
+                            <path d="M8,4.99962504 C8,4.5986689 7.84237218,4.22171013 7.55704586,3.93974097 L3.72417902,0.292468011 C3.32911182,-0.0974893371 2.69061937,-0.0974893371 2.29555217,0.292468011 C1.90148261,0.68342525 1.90148261,1.31635602 2.29555217,1.70631337 L5.77225994,4.99962504 L2.29555217,8.29293671 C1.90148261,8.68289406 1.90148261,9.31582483 2.29555217,9.70678207 C2.69061937,10.0977393 3.32911182,10.0977393 3.72417902,9.70678207 L7.55704586,6.06050901 C7.84237218,5.77654007 8,5.40158108 8,4.99962504 Z" id="Arrow-Down-Icon" transform="translate(5.000000, 5.000000) rotate(-270.000000) translate(-5.000000, -5.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

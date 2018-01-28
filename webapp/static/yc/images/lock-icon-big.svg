@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>lock-icon-big</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F33573" offset="0%"></stop>
+            <stop stop-color="#FFC066" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AppStarter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Webflow-Assets" transform="translate(-435.000000, -2720.000000)">
+            <g id="Feature-Icons-(Big)" transform="translate(235.000000, 2720.000000)">
+                <g id="lock-icon-big" transform="translate(200.000000, 0.000000)">
+                    <rect id="Base" fill="url(#linearGradient-1)" x="0" y="0" width="70" height="70"></rect>
+                    <path d="M42,47 L27,47 C25.3431458,47 24,45.6568542 24,44 L24,32 C24,30.3431458 25.3431458,29 27,29 L28.5,29 C28.5,25.6862915 31.1862915,23 34.5,23 C37.8137085,23 40.5,25.6862915 40.5,29 L42,29 C43.6568542,29 45,30.3431458 45,32 L45,44 C45,45.6568542 43.6568542,47 42,47 L42,47 L42,47 Z M34.5,26 C32.8431458,26 31.5,27.3431458 31.5,29 L37.5,29 C37.5,27.3431458 36.1568542,26 34.5,26 L34.5,26 L34.5,26 Z M42,32 L27,32 L27,44 L42,44 L42,32 L42,32 L42,32 Z M34.5,35 C36.1568542,35 37.5,36.3431458 37.5,38 C37.5,39.6568542 36.1568542,41 34.5,41 C32.8431458,41 31.5,39.6568542 31.5,38 C31.5,36.3431458 32.8431458,35 34.5,35 L34.5,35 L34.5,35 Z" id="Lock-Icon" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

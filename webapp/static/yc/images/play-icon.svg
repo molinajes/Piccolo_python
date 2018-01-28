@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>play-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF8E64" offset="0%"></stop>
+            <stop stop-color="#FFE641" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Webflow-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-1461.000000, -603.000000)" fill="url(#linearGradient-1)">
+            <g id="Small-Icons" transform="translate(921.000000, 603.000000)">
+                <path d="M543,3.00347371 C543,0.672490314 545.543914,-0.767293238 547.543487,0.431987825 L562.543487,9.42851412 C564.485504,10.5932746 564.485504,13.4067254 562.543487,14.5714859 L547.543487,23.5680122 C545.543914,24.7672932 543,23.3275097 543,20.9965263 L543,3.00347371 Z" id="Play-Filled-Icon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

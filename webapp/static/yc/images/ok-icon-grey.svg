@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>ok-icon-grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Webflow-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-712.000000, -505.000000)">
+            <g id="Dark-BG" transform="translate(235.000000, 422.000000)"></g>
+            <path d="M717.000375,519 C717.401331,519 717.77829,518.842372 718.060259,518.557046 L727.707532,508.724179 C728.097489,508.329112 728.097489,507.690619 727.707532,507.295552 C727.316575,506.901483 726.683644,506.901483 726.293687,507.295552 L717.000375,516.77226 L713.707063,513.295552 C713.317106,512.901483 712.684175,512.901483 712.293218,513.295552 C711.902261,513.690619 711.902261,514.329112 712.293218,514.724179 L715.939491,518.557046 C716.22346,518.842372 716.598419,519 717.000375,519 L717.000375,519 Z" id="ok-icon-grey" fill="#999EA8"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" data-wf-page="5a655cd943f71000016c0ecd" data-wf-site="5a611d0f3b54170001d1f7ad">
+  <head>
+    <title>Piccolo Labs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <meta content="Contact Us" property="og:title">
+    <meta content="summary" name="twitter:card">
+    <meta name="wf-page" content="5a655cd943f71000016c0ecd" />
+    <meta name="wf-site" content="5a611d0f3b54170001d1f7ad" />
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='yc/css/normalize.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='yc/css/webflow.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='yc/css/piccololabs.css') }}">
+    <link href="{{ url_for('static', filename='yc/images/favicon.png') }}" rel="shortcut icon" type="image/x-icon">
+    <link href="{{ url_for('static', filename='yc/images/webclip.png') }}" rel="apple-touch-icon">
+  </head>
+  <body class="body background-section">
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="7f814712-872d-e026-7956-cd0c0735edd7" class="fixednavbar w-nav">
+      <div class="wrapper w-container">
+        <div class="nav-panel w-clearfix">
+          <a href="/" data-w-id="820ab0ba-142a-0aa7-1b29-0bf5b9388f01" class="logo colored w-nav-brand">
+            <img src="{{ url_for('static', filename='yc/images/black.png') }}" width="118">
+          </a>
+          <a href="/" data-w-id="880092c8-d21c-2902-b853-bd7c1e378af8" class="logo monochrome w-nav-brand">
+            <img src="{{ url_for('static', filename='yc/images/white2.png') }}" width="118">
+          </a>
+          <nav role="navigation" class="nav-menu w-nav-menu">
+            <a data-ix="show-contact" href="/contact" data-w-id="1bd4d6b0-204e-9ce3-5125-04cd74173489" class="nav-link w-nav-link contact_font">Contact</a>
+          </nav>
+          <div class="menu-button w-nav-button"><img src="{{ url_for('static', filename='yc/images/menu-icon.svg') }}"></div>
+        </div>
+      </div>
+    </div>
+    <div class="background-section">
+      <div class="wrapper center w-container">
+        <div data-ix="fade-up-1" class="contact-window custom-contact w-form">
+          <form id="wf-form-Contact-Form-2" name="wf-form-Contact-Form" data-name="Contact Form" class="contact-form">
+            <input type="text" id="Name-3" name="Name-3" data-name="Name 3" placeholder="Your name" maxlength="256" class="input contact-input custom-name w-input">
+            <input type="email" class="input contact-input custom-email w-input" maxlength="256" name="Email-3" data-name="Email 3" placeholder="Email address" id="Email-3" required="">
+            <textarea id="Message-3" name="Message-3" placeholder="Message..." maxlength="5000" data-name="Message 3" class="input text-area w-input"></textarea>
+            <input type="submit" value="Submit" data-wait="Please wait..." class="button w-button">
+          </form>
+          <div class="form-success center w-form-done">
+            <div>Thanks! Your submission has been received!</div>
+          </div>
+          <div class="form-error red w-form-fail">
+            <div>Oops! Something went wrong while submitting the form :(</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+    <script src="{{ url_for('static', filename='yc/js/yc_home.js') }}" type="text/javascript"></script>
+    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  </body>
+</html>

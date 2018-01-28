@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>folder-icon-big</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#5134B3" offset="0%"></stop>
+            <stop stop-color="#B175EC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AppStarter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Webflow-Assets" transform="translate(-435.000000, -2820.000000)">
+            <g id="Feature-Icons-(Big)" transform="translate(235.000000, 2720.000000)">
+                <g id="folder-icon-big" transform="translate(200.000000, 100.000000)">
+                    <rect id="Base" fill="url(#linearGradient-1)" x="0" y="0" width="70" height="70"></rect>
+                    <path d="M32.9028766,27.0253766 L35.183,29.3055 C35.6416572,29.7458212 36.25122,29.994261 36.887,30 L44,30 L44,42 L26,42 L26,27 L32.9028766,27.0253766 Z M23,42 C23.0074262,43.6578658 24.3526184,44.9983662 26.0105,45 L43.9895,45 C44.7869672,45.0027912 45.5527292,44.6879532 46.1176113,44.1250413 C46.6824934,43.5621294 47.0000049,42.7974721 47,42 L47,30 C47.0000167,28.3484035 45.6650797,27.0074322 44.0135,27 L37.1054089,26.9829089 L34.817,24.6945 C34.3544443,24.260218 33.7473463,24.0127828 33.113,24 L25.9865,24 C24.3349203,24.0074322 22.9999833,25.3484035 23,27 L23,42 Z" id="Folder-Icon" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

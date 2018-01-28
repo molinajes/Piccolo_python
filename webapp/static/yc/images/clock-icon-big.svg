@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>clock-icon-big</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#009FC5" offset="0%"></stop>
+            <stop stop-color="#3CECB0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AppStarter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Webflow-Assets" transform="translate(-235.000000, -2820.000000)">
+            <g id="clock-icon-big" transform="translate(235.000000, 2820.000000)">
+                <rect id="Base" fill="url(#linearGradient-1)" x="0" y="0" width="70" height="70"></rect>
+                <path d="M35,47 C28.372583,47 23,41.627417 23,35 C23,28.372583 28.372583,23 35,23 C41.627417,23 47,28.372583 47,35 C47,41.627417 41.627417,47 35,47 L35,47 L35,47 L35,47 Z M35,26 C30.0294373,26 26,30.0294373 26,35 C26,39.9705627 30.0294373,44 35,44 C39.9705627,44 44,39.9705627 44,35 C44,30.0294373 39.9705627,26 35,26 L35,26 L35,26 L35,26 Z M41,36.5 L35,36.5 C34.1768164,36.5000333 33.5074087,35.8366502 33.5,35.0135 L33.5,28.9865 C33.5,28.1580729 34.1715729,27.4865 35,27.4865 C35.8284271,27.4865 36.5,28.1580729 36.5,28.9865 L36.5,33.5 L41,33.5 C41.8284271,33.5 42.5,34.1715729 42.5,35 C42.5,35.8284271 41.8284271,36.5 41,36.5 L41,36.5 L41,36.5 L41,36.5 Z" id="Clock-Icon" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>reload-icon-big</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#7956EC" offset="0%"></stop>
+            <stop stop-color="#2FB9F8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AppStarter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Webflow-Assets" transform="translate(-235.000000, -2720.000000)">
+            <g id="Feature-Icons-(Big)" transform="translate(235.000000, 2720.000000)">
+                <g id="reload-icon-big">
+                    <rect id="Base" fill="url(#linearGradient-1)" x="0" y="0" width="70" height="70"></rect>
+                    <path d="M38.9628673,32 C38.4095513,32 38.2727393,31.6895527 38.6691395,31.2947954 L41.339,28.636 C39.703,27.008 37.444,26 34.947,26 C30.346,26 26.55,29.424 25.984,33.852 C25.984,33.852 25.811,35 24.506,35 C23.675,35 23.001,34.328 23.001,33.5 C23.001,33.387 23.014,33.277 23.038,33.17 C23.924,27.412 28.916,23 34.947,23 C38.276,23 41.289,24.343 43.47,26.515 L46.2856518,23.7113127 C46.6801754,23.3184655 47,23.4463114 47,23.9975446 L47,31.4903342 C47,31.7718148 46.7765628,32 46.5011488,32 L38.9628673,32 Z M31.0371327,38 C31.5904487,38 31.7272607,38.3104473 31.3308605,38.7052046 L28.661,41.364 C30.296,42.993 32.556,44 35.053,44 C39.654,44 43.45,40.576 44.016,36.148 C44.016,36.148 44.189,35 45.494,35 C46.325,35 46.999,35.672 46.999,36.5 C46.999,36.614 46.986,36.724 46.962,36.83 C46.076,42.588 41.084,47 35.053,47 C31.724,47 28.711,45.657 26.53,43.486 L23.7143482,46.2888897 C23.3198246,46.6816251 23,46.5536886 23,46.0024554 L23,38.5096658 C23,38.2281852 23.2234372,38 23.4988512,38 L31.0371327,38 Z" id="Reload-#1-Icon" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

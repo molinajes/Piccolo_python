@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Webflow-Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-485.000000, -443.000000)" fill="#676B75">
+            <g id="Dark-BG" transform="translate(235.000000, 422.000000)">
+                <g id="Social" transform="translate(190.000000, 21.000000)">
+                    <path d="M65.6676666,15.9515152 L65.6676666,8.65673646 L63,8.65673646 L63,5.86638396 L65.6683094,5.86638396 L65.6683094,3.76033218 C65.6683094,1.33538298 67.2560531,5.68434189e-14 69.6055282,5.68434189e-14 C70.7304478,5.68434189e-14 71.7178059,0.0730806608 72,0.106299143 L72,2.67740967 L70.3286908,2.67740967 C69.0507821,2.67740967 68.8116563,3.23548017 68.8116563,4.05929852 L68.8116563,5.86638396 L71.8695093,5.86638396 L71.472252,8.65673646 L68.8116563,8.65673646 L68.8116563,15.9515152 L65.6618813,15.9515152 L65.6676666,15.9515152 Z" id="facebook-icon"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

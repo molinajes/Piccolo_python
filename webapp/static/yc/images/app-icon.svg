@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>app-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF8E64" offset="0%"></stop>
+            <stop stop-color="#FFE641" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AppStarter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Webflow-Assets" transform="translate(-345.000000, -2590.000000)">
+            <g id="Icons" transform="translate(235.000000, 2582.000000)">
+                <g id="app-icon" transform="translate(110.000000, 8.000000)">
+                    <rect id="Base" fill="#FFFFFF" x="0" y="0" width="90" height="90"></rect>
+                    <path d="M64.675367,72.7320209 C59.1220089,76.6791561 52.3320357,79 45,79 C37.5085266,79 30.5829467,76.5771235 24.9641151,72.4722254 L30.6940966,59.3615635 L58.8318426,59.3615635 L64.675367,72.7320209 Z M65.7040422,71.9714442 C73.7891125,65.7558345 79,55.9864516 79,45 C79,26.2223176 63.7776824,11 45,11 C26.2223176,11 11,26.2223176 11,45 C11,54.0891094 14.5664773,62.345223 20.3763234,68.4452321 L42.0017889,20 L47.4364937,20 L69,68.252443 L65.7040422,71.9714442 Z M45,84 C66.5391063,84 84,66.5391063 84,45 C84,23.4608937 66.5391063,6 45,6 C23.4608937,6 6,23.4608937 6,45 C6,66.5391063 23.4608937,84 45,84 Z M33,54 L57,54 L45,27 L33,54 Z" id="A" fill="url(#linearGradient-1)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

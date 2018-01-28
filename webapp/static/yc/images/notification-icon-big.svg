@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>notification-icon-big</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#AD2AB9" offset="0%"></stop>
+            <stop stop-color="#FF618C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="AppStarter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Webflow-Assets" transform="translate(-335.000000, -2820.000000)">
+            <g id="Feature-Icons-(Big)" transform="translate(235.000000, 2720.000000)">
+                <g id="notification-icon-big" transform="translate(100.000000, 100.000000)">
+                    <rect id="Base" fill="url(#linearGradient-1)" x="0" y="0" width="70" height="70"></rect>
+                    <path d="M46.9235428,42.9725 C46.7189977,43.5890634 46.140959,44.0038345 45.4915847,44 L37.994422,44 C37.994422,45.6568542 36.6517844,47 34.9955569,47 C33.3393295,47 31.9966918,45.6568542 31.9966918,44 L24.4995291,44 C23.8541278,44 23.2811363,43.5868549 23.0770425,42.9743416 C22.8729487,42.3618284 23.0835485,41.6873874 23.5998696,41.3 C25.1157661,40.1706383 26.0086826,38.3908039 26.0079583,36.5 L26.0079583,32 C26.0079583,27.0294373 30.0358712,23 35.0045535,23 C39.9732359,23 44.0011488,27.0294373 44.0011488,32 L44.0011488,36.5 C43.9959215,38.3897745 44.8858569,40.1703187 46.4002409,41.3 C46.9159403,41.6869949 47.126649,42.3604305 46.9235428,42.9725 L46.9235428,42.9725 Z M41.2496901,36.5075 L41.2496901,32.0075 C41.12224,28.6484988 38.3632025,25.9911945 35.0030541,25.9911945 C31.6429057,25.9911945 28.8838682,28.6484988 28.7564181,32.0075 L28.7564181,36.5075 C28.7561657,38.0931182 28.3243823,39.6487489 27.5073908,41.0075 L42.5017162,41.0075 C41.6831123,39.6492934 41.2502425,38.0934838 41.2496901,36.5075 L41.2496901,36.5075 Z" id="Notifications-Icon" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
