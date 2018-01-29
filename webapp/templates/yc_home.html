@@ -53,21 +53,21 @@
           <a href="/beta" data-w-id="820ab0ba-142a-0aa7-1b29-0bf5b9388f01" class="logo colored w-nav-brand"><img src="{{ url_for('static', filename='yc/images/black.png') }}" width="118"></a>
           <a href="/beta" data-w-id="880092c8-d21c-2902-b853-bd7c1e378af8" class="logo monochrome w-nav-brand"><img src="{{ url_for('static', filename='yc/images/white2.png') }}" width="118"></a>
           <nav role="navigation" class="nav-menu w-nav-menu">
+            <a data-ix="show-contact" href="/contact" data-w-id="1bd4d6b0-204e-9ce3-5125-04cd74173489" class="nav-link w-nav-link contact_font">Contact</a>            
             <a data-ix="show-contact" href="/thought" data-w-id="1bd4d6b0-204e-9ce3-5125-04cd74173489" class="nav-link w-nav-link contact_font">Thought</a>
-            <a data-ix="show-contact" href="/contact" data-w-id="1bd4d6b0-204e-9ce3-5125-04cd74173489" class="nav-link w-nav-link contact_font">Contact</a>
           </nav>
           <div class="menu-button w-nav-button"><img src="{{ url_for('static', filename='yc/images/menu-icon.svg') }}"></div>
         </div>
       </div>
     </div>
     <div class="hero-section all-platforms">
-      <!--
-      <div data-poster-url="https://daks2k3a4ib2z.cloudfront.net/5a611d0f3b54170001d1f7ad/5a650b7f4af5970001a8e056_piccolo background video-poster-00001.jpg" data-video-urls="https://daks2k3a4ib2z.cloudfront.net/5a611d0f3b54170001d1f7ad/5a650b7f4af5970001a8e056_piccolo background video-transcode.webm,https://daks2k3a4ib2z.cloudfront.net/5a611d0f3b54170001d1f7ad/5a650b7f4af5970001a8e056_piccolo background video-transcode.mp4" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-w-id="90fe7762-970a-5106-c985-e09bcef2f353" class="background-video-2 w-background-video w-background-video-atom mobile_image">
+      <!--<div data-poster-url="https://daks2k3a4ib2z.cloudfront.net/5a611d0f3b54170001d1f7ad/5a650b7f4af5970001a8e056_piccolo background video-poster-00001.jpg" data-video-urls="https://daks2k3a4ib2z.cloudfront.net/5a611d0f3b54170001d1f7ad/5a650b7f4af5970001a8e056_piccolo background video-transcode.webm,https://daks2k3a4ib2z.cloudfront.net/5a611d0f3b54170001d1f7ad/5a650b7f4af5970001a8e056_piccolo background video-transcode.mp4" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-w-id="90fe7762-970a-5106-c985-e09bcef2f353" class="background-video-2 w-background-video w-background-video-atom mobile_image">
         <video class="mobile-show" autoplay="" loop="" style="background-image:url(&quot;https://daks2k3a4ib2z.cloudfront.net/5a611d0f3b54170001d1f7ad/5a650b7f4af5970001a8e056_piccolo background video-poster-00001.jpg&quot;)"         data-wf-ignore="true">
           <source src="https://daks2k3a4ib2z.cloudfront.net/5a611d0f3b54170001d1f7ad/5a650b7f4af5970001a8e056_piccolo background video-transcode.webm" data-wf-ignore="true">
           <source src="https://daks2k3a4ib2z.cloudfront.net/5a611d0f3b54170001d1f7ad/5a650b7f4af5970001a8e056_piccolo background video-transcode.mp4" data-wf-ignore="true">
         </video> -->
-      <div data-autoplay="true" data-loop="true" data-wf-ignore="true" class="background-video-2 w-background-video w-background-video-atom mobile_image">
+      
+      <div data-autoplay="true" data-loop="true" data-wf-ignore="true"  data-w-id="90fe7762-970a-5106-c985-e09bcef2f353" class="background-video-2 w-background-video w-background-video-atom mobile_image">
         <video class="mobile-show" autoplay="" loop="" data-wf-ignore="true">
           <source src="https://d3pwghwcjxwsyt.cloudfront.net/background.mp4" data-wf-ignore="true">
         </video>
@@ -101,18 +101,19 @@
     </div>
     <div class="section">
       <div class="wrapper w-container">
-        <div class="big-side-feature">
-          <div data-ix="fade-right" class="feature-device web logos">
-            <!-- <img src="{{ url_for('static', filename='yc/images/hand_image.png') }}" width="271" sizes="(max-width: 479px) 100vw, 271px" class="chromecast-mobile"> -->
-            <img src="{{ url_for('static', filename='yc/images/hand.png') }}" width="271" sizes="(max-width: 479px) 100vw, 271px" class="chromecast-mobile">
-          </div>
-          <div data-ix="fade-left" class="big-feature-info big-device">
+        <div class="big-side-feature" style="display:block">      
+          <div class="big-feature-info big-device" style="float:right">
             <h2 class="feature-header-big"><strong>Natural gestures </strong>to control your devices<span class="heading-accent"></span></h2>
             <div class="feature-text-big"> Turn on your lamps by pointing at them. Face your TV and drag down to reduce the volume or drag right to fast forward. Do a ‘shush gesture’ to instantly mute every device in your home. Our Gesture Dictionary was designed to be intuitive so you don’t have remember it.
             </div>
           </div>
+          <div class="feature-device web logos">
+            <!-- <img src="{{ url_for('static', filename='yc/images/hand_image.png') }}" width="271" sizes="(max-width: 479px) 100vw, 271px" class="chromecast-mobile"> -->
+            <img src="{{ url_for('static', filename='yc/images/hand.png') }}" width="271" sizes="(max-width: 479px) 100vw, 271px" class="chromecast-mobile">
         </div>
       </div>
+      </div>
+      <div style="float:clear" ></div>
       <div class="wrapper w-container">
         <div class="big-side-feature">
           <div data-ix="fade-right" class="big-feature-info big-device">
