@@ -131,7 +131,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 700px;
+  height: 1080px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
@@ -662,7 +662,7 @@ figcaption {
 }
 
 .big-feature-info.big-device {
-  width: 40%;
+  width: 50%;
   margin: 0px 0%;
   padding-right: 5px;
   padding-bottom: 0px;
@@ -690,7 +690,7 @@ figcaption {
 }
 
 .feature-device.web {
-  width: 60%;
+  width: 50%;
   margin-top: 0px;
   padding-right: 0px;
   padding-left: 10px;
@@ -2176,7 +2176,7 @@ figcaption {
 }
 
 .heading-5-copy {
-  float: left;
+  /*float: left;*/
   font-size: 22px;
   line-height: 25px;
 }
@@ -3720,3 +3720,19 @@ html.w-mod-js *[data-ix="hide-compare-section"] {
   }
 }
 
+/* thought or blog page */
+.blog_name_date {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  text-align: center;
+  color: #4A4A4A;
+  color: #9B9B9B;
+  margin: 0;
+}
+
+.blog_title {
+  text-align: center;
+  color: #4A4A4A;
+  margin: 0;
+}
