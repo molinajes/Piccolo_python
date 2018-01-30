@@ -68,8 +68,8 @@
         </video> -->
       
       <div data-autoplay="true" data-loop="true" data-wf-ignore="true"  data-w-id="90fe7762-970a-5106-c985-e09bcef2f353" class="background-video-2 w-background-video w-background-video-atom mobile_image">
-        <video class="mobile-show" autoplay="" width="1920" height="1080" loop="" data-wf-ignore="true">
-          <source src="https://d3pwghwcjxwsyt.cloudfront.net/background.mp4" data-wf-ignore="true">
+        <video class="mobile-show" autoplay="" loop="" style="background-image:url(&quot;https://daks2k3a4ib2z.cloudfront.net/5a611d0f3b54170001d1f7ad/5a650b7f4af5970001a8e056_piccolo background video-poster-00001.jpg&quot;)" data-wf-ignore="true">
+          <source id="background_video_volume" src="https://d3pwghwcjxwsyt.cloudfront.net/background.mp4" data-wf-ignore="true">
         </video>
         
         <div class="container w-container">
@@ -207,6 +207,10 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
     <script src="{{ url_for('static', filename='yc/js/yc_home.js') }}" type="text/javascript"></script>
+    <script >
+      var x=document.getElementById("background_video_volume");
+      x.volume=0.5
+    </script>
     <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   </body>
 </html>

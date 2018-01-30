@@ -131,7 +131,8 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 1080px;
+  height: 949px;
+  width: 100%;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
@@ -2462,6 +2463,9 @@ html.w-mod-js *[data-ix="hide-compare-section"] {
 @media (max-width: 991px) {
   .bouncy-arrow {
     margin-bottom: 0px;
+  }
+  .div-block {
+  padding-top: 50px;
   }
   .chromecast-mobile{
     width: 220px;
