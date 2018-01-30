@@ -131,7 +131,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 900px;
+  height: 1080px;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
@@ -174,7 +174,7 @@ figcaption {
   font-size: 20px;
 }
 .space_scroll{
-  min-height: 250px
+  min-height: 350px
 }
 
 .logo.colored.w--current {
@@ -2197,7 +2197,7 @@ figcaption {
   padding-right: 0px;
   padding-bottom: 0%;
   padding-left: 0px;
-  padding-top: 270px;
+  padding-top: 200px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
