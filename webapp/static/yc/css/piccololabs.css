@@ -706,7 +706,7 @@ figcaption {
 }
 
 .feature-device.web video {
-    width: 710px;
+    width: 100%;
     height: auto;
 }
 
