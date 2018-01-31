@@ -804,7 +804,6 @@ textarea.w-select {
   left: -100%;
   margin: auto;
   min-width: 100%;
-  min-height: 100%;
   z-index: -100;
 }
 .w-slider {

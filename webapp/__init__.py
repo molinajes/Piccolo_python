@@ -37,7 +37,7 @@ def create_app(config, debug=False, testing=False, config_overrides=None, is_dev
     def yc_contact():
         return render_template("yc_contact.html")
 
-    @app.route("/thought")
+    @app.route("/thoughts")
     def yc_thought():
         return render_template("yc_thought.html")
 
