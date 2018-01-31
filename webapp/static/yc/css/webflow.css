@@ -798,12 +798,11 @@ textarea.w-select {
   background-size: cover;
   background-position: 50% 50%;
   position: absolute;
-  right: -100%;
-  bottom: -100%;
-  top: -100%;
-  left: -100%;
-  margin: auto;
-  min-width: 100%;
+  right: 0;
+  bottom: 0;
+  top: 0px;
+  left: 0;
+  max-width: 100%;
   z-index: -100;
 }
 .w-slider {

@@ -177,7 +177,7 @@ figcaption {
   font-size: 20px;
 }
 .space_scroll{
-  min-height: 300px
+  min-height: 260px
 }
 
 .logo.colored.w--current {
@@ -2200,7 +2200,7 @@ figcaption {
   padding-right: 0px;
   padding-bottom: 0%;
   padding-left: 0px;
-  padding-top: 310px;
+  padding-top: 270px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
