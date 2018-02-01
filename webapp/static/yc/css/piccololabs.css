@@ -677,7 +677,7 @@ figcaption {
   margin-top: 16px;
   color: #282b31;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
 }
 
@@ -2200,7 +2200,7 @@ figcaption {
   padding-right: 0px;
   padding-bottom: 0%;
   padding-left: 0px;
-  padding-top: 270px;
+  padding-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2228,6 +2228,7 @@ figcaption {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+  height: 100%;
 }
 
 .form-block {
@@ -2671,7 +2672,7 @@ html.w-mod-js *[data-ix="hide-compare-section"] {
     flex: 0 auto;
   }
   .feature-text-big {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 25px;
   }
   .feature-device {
@@ -3187,7 +3188,7 @@ html.w-mod-js *[data-ix="hide-compare-section"] {
   }
   .feature-text-big {
     margin-top: 0px;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 25px;
   }
   .feature-device {
