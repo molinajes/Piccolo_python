@@ -14044,7 +14044,8 @@ Webflow.define('navbar', module.exports = function ($, _) {
   function resize(i, el) {
     var wW = window.innerWidth;
     // console.log('window width', wW)
-    var wH = window.innerHeight;
+    // var wH = window.innerHeight;
+    var wH = $('.mobile-show').height();
     // console.log('window height', wH)
     var cswH = $('.center-section-wrapper').height() + 34;
     // console.log('center-section-wrapper height', cswH)
@@ -14055,10 +14056,12 @@ Webflow.define('navbar', module.exports = function ($, _) {
     // console.log('div-block padd', divBlock.css('padding-top'));
 
     if (wW < 991) { // for small screen
-      wH = $('.background-video-2').height()
+      wH = Math.min($('.background-video-2').height(), 550);
       // console.log('background-video-2 height', wH)
     }
 
+    $('.hero-section.all-platforms').height(wH);
+    $('.container.w-container').height(wH);
     var cswPaddingTop = (wH - cswH) / 2;
     // console.log('paddingTop', cswPaddingTop)
     divBlock.css('padding-top', cswPaddingTop + 'px');
