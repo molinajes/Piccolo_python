@@ -677,7 +677,7 @@ figcaption {
   margin-top: 16px;
   color: #282b31;
   line-height: 30px;
-  font-size: 18px;
+  font-size: 20px;
   text-align: justify;
 }
 
@@ -2192,6 +2192,13 @@ figcaption {
   background-image: linear-gradient(180deg, #fff, #a06fa0);
 }
 
+.center-section-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .div-block {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2200,7 +2207,7 @@ figcaption {
   padding-right: 0px;
   padding-bottom: 0%;
   padding-left: 0px;
-  padding-top: 0px;
+  padding-top: 270px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2228,7 +2235,6 @@ figcaption {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  height: 100%;
 }
 
 .form-block {
@@ -2254,10 +2260,10 @@ figcaption {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -2672,7 +2678,7 @@ html.w-mod-js *[data-ix="hide-compare-section"] {
     flex: 0 auto;
   }
   .feature-text-big {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 25px;
   }
   .feature-device {
@@ -3188,7 +3194,7 @@ html.w-mod-js *[data-ix="hide-compare-section"] {
   }
   .feature-text-big {
     margin-top: 0px;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 25px;
   }
   .feature-device {
