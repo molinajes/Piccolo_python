@@ -14042,6 +14042,28 @@ Webflow.define('navbar', module.exports = function ($, _) {
   }
 
   function resize(i, el) {
+    var wW = window.innerWidth;
+    // console.log('window width', wW)
+    var wH = window.innerHeight;
+    // console.log('window height', wH)
+    var cswH = $('.center-section-wrapper').height() + 34;
+    // console.log('center-section-wrapper height', cswH)
+    var fnH = $('.fixednavbar.w-nav').height();
+    // console.log('fixednavbar w-nav height', $('.fixednavbar.w-nav').height())
+    // var cswPaddingTop = (wH - cswH) / 2 - fnH - 33;
+    var divBlock = $('.div-block');
+    // console.log('div-block padd', divBlock.css('padding-top'));
+
+    if (wW < 991) { // for small screen
+      wH = $('.background-video-2').height()
+      // console.log('background-video-2 height', wH)
+    }
+
+    var cswPaddingTop = (wH - cswH) / 2;
+    // console.log('paddingTop', cswPaddingTop)
+    divBlock.css('padding-top', cswPaddingTop + 'px');
+    // console.log('div-block padd2', divBlock.css('padding-top'));
+
     var data = $.data(el, namespace);
     // Check for collapsed state based on button display
     var collapsed = data.collapsed = data.button.css('display') !== 'none';
