@@ -205,23 +205,6 @@
     <script >
       var x=document.getElementById("background_video_volume");
       x.volume=0.5
-      var $element = $("#main_contain");
-      var lastHeight = $("#main_contain").css('height');
-      function checkForChanges()
-      {
-          if ($element.css('height') != lastHeight)
-          {
-            alert('ssss');
-            lastHeight = $element.css('height'); 
-            var total_height = lastHeight - 267 ;
-            var half_height = total_height / 2;
-            console.log(half_height);
-            document.getElementById("space_scroll_1").height=half_height;
-            document.getElementById("space_scroll_1").style.height = half_height-87;
-          }
-
-          setTimeout(checkForChanges, 500);
-      }
     </script>
     <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   </body>
