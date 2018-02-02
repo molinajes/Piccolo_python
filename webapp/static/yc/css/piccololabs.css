@@ -2249,7 +2249,7 @@ figcaption {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  display: block;
   height: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
