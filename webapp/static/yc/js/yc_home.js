@@ -14045,6 +14045,7 @@ Webflow.define('navbar', module.exports = function ($, _) {
     var wW = window.innerWidth;
     // console.log('window width', wW)
     // var wH = window.innerHeight;
+    var minH = wW * 1080 / 1920 - 12;
     var wH = $('.mobile-show').height();
     // console.log('window height', wH)
     var cswH = $('.center-section-wrapper').height() + 34;
@@ -14058,8 +14059,9 @@ Webflow.define('navbar', module.exports = function ($, _) {
     if (wW < 991) { // for small screen
       wH = Math.min($('.background-video-2').height(), 550);
       // console.log('background-video-2 height', wH)
+    } else {
+      wH = minH
     }
-
     $('.hero-section.all-platforms').height(wH);
     $('.container.w-container').height(wH);
     var cswPaddingTop = (wH - cswH) / 2;
