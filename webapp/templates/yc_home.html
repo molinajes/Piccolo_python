@@ -48,7 +48,7 @@
       <div data-ix="hide-contact" class="dark-close-bg"></div>
     </div>
     <div data-collapse="medium" data-animation="default" data-duration="400" data-w-id="7f814712-872d-e026-7956-cd0c0735edd7" class="fixednavbar w-nav">
-      <div class="wrapper w-container">
+      <div class="wrapper w-container menu_padding">
         <div class="nav-panel w-clearfix">
           <a href="/beta" data-w-id="820ab0ba-142a-0aa7-1b29-0bf5b9388f01" class="logo colored w-nav-brand"><img src="{{ url_for('static', filename='yc/images/black.png') }}" width="118"></a>
           <a href="/beta" data-w-id="880092c8-d21c-2902-b853-bd7c1e378af8" class="logo monochrome w-nav-brand"><img src="{{ url_for('static', filename='yc/images/white2.png') }}" width="118"></a>
@@ -56,6 +56,7 @@
             <a data-ix="show-contact" href="/contact" data-w-id="1bd4d6b0-204e-9ce3-5125-04cd74173489" class="nav-link w-nav-link contact_font">Contact</a>            
             <a data-ix="show-contact" href="/thoughts" data-w-id="1bd4d6b0-204e-9ce3-5125-04cd74173489" class="nav-link w-nav-link contact_font">Thoughts</a>
           </nav>
+          <div class="menu-button w-nav-button"><img src="{{ url_for('static', filename='yc/images/menu-icon.svg') }}"></div>
           <div class="menu-button w-nav-button"><img src="{{ url_for('static', filename='yc/images/menu-icon.svg') }}"></div>
         </div>
       </div>
@@ -78,7 +79,14 @@
                     <input type="email" class="input notify-input w-input" maxlength="256" name="Notify-Email-1" data-name="Notify Email #1" placeholder="Email address" id="Notify-Email" required="">
                     <input type="submit" value="Request Beta" data-wait="Please wait..." class="button w-button">
                   </form>
-                  <div class="form-success center w-form-done">
+                  <div class="form-success center w-form-done ">
+                    <div class="social-share-button" >
+                      <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                      <a class="a2a_button_facebook"></a>
+                      <a class="a2a_button_twitter"></a>
+                      </div>
+                      <script async src="https://static.addtoany.com/menu/page.js"></script>
+                    </div>
                     <div>Thanks! We will be in touch.</div>
                   </div>
                   <div class="form-error red w-form-fail">
@@ -86,11 +94,7 @@
                   </div>
                 </div>
             </div>
-{#            <div class="space_scroll"></div>#}
-{#            <div class="bouncy-arrow">#}
-{#              <div class="scroll_down">Scroll Down</div>#}
-{#              <img src="{{ url_for('static', filename='yc/images/arrow.png') }}" width="62" data-w-id="7f442c1b-9ec8-7fd7-92d7-189637c0b5a3" class="image">#}
-{#            </div>#}
+
           </div>
         </div>
       </div>
@@ -134,7 +138,7 @@
       <div class="wrapper center w-container">
         <h2 data-ix="fade-up-1" class="heading">The <strong>smartest camera</strong> ever made</h2>
         <div  class="big-side-feature side-feature-blocks">
-          <div data-ix="fade-right" class="big-feature-info big-device">
+          <div data-ix="fade-right" class="big-feature-info big-device video">
             <div  class="feature-icon-left-block w-clearfix">
               <h5 class="heading-5-copy">
                 <span class="heading-accent"></span>
@@ -157,7 +161,7 @@
               </div>
             </div>
           </div>
-          <div data-ix="fade-left" class="feature-device web">
+          <div data-ix="fade-left" class="feature-device web video">
             <div class="video-2 w-video w-embed">
               <!-- <video muted="" autoplay="" loop="" src="{{ url_for('static', filename='yc/videos/yc_demo.mp4') }}"></video> -->
               <video muted="" autoplay="" loop="" src="https://d3pwghwcjxwsyt.cloudfront.net/technology.mp4"></video>
@@ -203,10 +207,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
     <script src="{{ url_for('static', filename='yc/js/yc_home.js') }}" type="text/javascript"></script>
-    <script >
-      var x=document.getElementById("background_video_volume");
-      x.volume=0.5
-    </script>
     <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   </body>
 </html>

@@ -113,6 +113,9 @@ figcaption {
 .wrapper.w-container.thoughts{
   max-width: 1000px;
 }
+.menu_padding{
+  padding-top: 0px !important;
+}
 .hero-section {
   height: 720px;
   background-image: url('../images/bg-gradient-1.svg'), -webkit-linear-gradient(315deg, #7956ec, #2fb9f8);
@@ -159,7 +162,6 @@ figcaption {
 .logo {
   position: absolute;
   left: 0px;
-  margin-top: -2px;
   padding-right: 20px;
   padding-left: 15px;
   float: left;
@@ -187,7 +189,9 @@ figcaption {
 .logo.colored.w--current:hover {
   opacity: 0.6;
 }
-
+.black_menu{
+  display: none;
+}
 .logo.monochrome {
   opacity: 1;
 }
@@ -254,6 +258,7 @@ figcaption {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 20px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -673,11 +678,15 @@ figcaption {
   text-align: left;
 }
 
+.big-feature-info.big-device.video{
+  width: 40%;
+}
+
 .feature-text-big {
   margin-top: 16px;
   color: #282b31;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 17px;
   text-align: justify;
 }
 
@@ -703,6 +712,9 @@ figcaption {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+}
+.feature-device.web.video{
+  width: 60%;
 }
 
 .feature-device.web video {
@@ -2182,7 +2194,7 @@ figcaption {
 
 .heading-5-copy {
   /*float: left;*/
-  font-size: 22px;
+  font-size: 24px;
   line-height: 25px;
 }
 
@@ -2470,6 +2482,9 @@ html.w-mod-js *[data-ix="hide-compare-section"] {
 }
 
 @media (max-width: 991px) {
+  .black_menu{
+    display: block;
+  }
   .bouncy-arrow {
     margin-bottom: 0px;
   }
