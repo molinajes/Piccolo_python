@@ -13882,6 +13882,22 @@ Webflow.define('navbar', module.exports = function ($, _) {
     if (!$navbars.length) return;
     $navbars.each(build);
 
+    // Load SVG
+    $('.menu-button.w-nav-button').load('static/yc/images/menu-icon.svg');
+
+    // Tracking background change, jQuery plugin http://meetselva.github.io/
+    $('.fixednavbar.w-nav').attrchange({
+      trackValues: true,
+      /* enables tracking old and new values */
+      callback: function(e) { //callback handler on DOM changes
+          if ($('.fixednavbar.w-nav').css('background-color') === 'rgba(255, 255, 255, 0)') {
+            $('.menu-button.w-nav-button path').css('color', '#fff')
+          } else {
+            $('.menu-button.w-nav-button path').css('color', '#000')
+          }
+      }
+    });
+
     // Wire events
     removeListeners();
     addListeners();
