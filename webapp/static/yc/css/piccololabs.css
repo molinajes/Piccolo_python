@@ -3012,6 +3012,10 @@ html.w-mod-js *[data-ix="hide-compare-section"] {
   .menu-button.w--open {
     background-color: transparent;
   }
+  .menu-button.w-nav-button path{
+    color: #fff;
+    fill: currentColor;
+  }
   .bold-text {
     display: block;
     float: right;
