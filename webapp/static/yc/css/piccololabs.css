@@ -117,6 +117,7 @@ figcaption {
 .menu_padding{
   padding-top: 0px !important;
 }
+
 .hero-section {
   height: 720px;
   background-image: url('../images/bg-gradient-1.svg'), -webkit-linear-gradient(315deg, #7956ec, #2fb9f8);
@@ -2483,8 +2484,14 @@ html.w-mod-js *[data-ix="hide-compare-section"] {
 }
 
 @media (max-width: 991px) {
+  .big-feature-info.big-device.video{
+    width: 100%;
+  }
+  .feature-device.web.video{
+    width: 100%;
+  }
   .black_menu{
-    display: none;
+    display: block;
   }
   .bouncy-arrow {
     margin-bottom: 0px;
