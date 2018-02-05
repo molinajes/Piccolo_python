@@ -2484,7 +2484,7 @@ html.w-mod-js *[data-ix="hide-compare-section"] {
 
 @media (max-width: 991px) {
   .black_menu{
-    display: block;
+    display: none;
   }
   .bouncy-arrow {
     margin-bottom: 0px;
@@ -3767,3 +3767,4 @@ html.w-mod-js *[data-ix="hide-compare-section"] {
   text-align: center;
   margin: 0;
 }
+
