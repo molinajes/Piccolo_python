@@ -111,6 +111,7 @@ figcaption {
   text-align: center;
 }
 .wrapper.w-container.thoughts{
+  padding-top: 50px;
   max-width: 1000px;
 }
 .menu_padding{
@@ -3764,6 +3765,5 @@ html.w-mod-js *[data-ix="hide-compare-section"] {
 
 .blog_title {
   text-align: center;
-  color: #4A4A4A;
   margin: 0;
 }
